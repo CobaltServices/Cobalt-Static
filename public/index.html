@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Cobalt | Powerful Web Proxy</title>
+    <meta name="description" content="Cobalt is a powerful proxy designed to overcome internet censorship and access websites securely." />
+    <meta name="keywords" content="proxy, web proxy, cobalt, ultraviolet, service workers, unblock websites, free web proxy, proxy list, proxy sites, online proxy, proxy server, bypass filters, secure browsing" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e" />
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is Cobalt (Web Proxy)?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I unblock sites using Cobalt?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Simply head to an official site featuring Cobalt or self-host Cobalt on your own web server for maximum privacy."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What if Cobalt is blocked or not working?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Visit our support community at [Your Support Community Link] for assistance."
+                    }
+                }
+            ]
+        }
+    </script>
+</head>
+
+<body>
+    <div title="Cobalt Logo" class="flex-center logo-wrapper header-center">
+        <img class="logo" src="cobalt_logo.png" alt="Cobalt" />
+        <h1>Cobalt | CobaltServices</h1>
+    </div>
+    <div class="flex-center desc left-margin">
+        <p>
+            Cobalt is a powerful proxy designed to overcome internet censorship and access websites securely.
+        </p>
+    </div>
+
+    <form id="cobalt-form" class="flex-center">
+        <input id="cobalt-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
+        <input id="cobalt-address" type="text" placeholder="Search the web freely" />
+    </form>
+    <div class="desc left-margin">
+        <p id="cobalt-error"></p>
+        <pre id="cobalt-error-code"></pre>
+    </div>
+    <footer>
+        <div>
+            <a title="Cobalt GitHub" href="https://github.com/cobaltservices/cobalt">Cobalt Proxy</a>
+            <a title="Cobalt Discord" href="https://discord.gg/cobalt">Discord</a>
+            <a title="The TompHTTP GitHub organization" href="https://github.com/tomphttp">TompHTTP</a>
+            <a title="Ultraviolet Deployment Repository" href="https://github.com/cobalt-proxy/ultraviolet-App">GitHub</a>
+            <a title="License information" href="credits.html">Credits</a>
+        </div>
+        <div>
+            <span>Cobalt Proxy &copy; CobaltServices 2024</span>
+        </div>
+    </footer>
+</body>
+</html>
